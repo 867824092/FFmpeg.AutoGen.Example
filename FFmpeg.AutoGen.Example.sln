@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFmpeg.Audio", "FFmpeg.Audi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpeg.Video", "FFmpeg.Video\FFmpeg.Video.csproj", "{55F4EB9C-E215-4066-8973-9EE2D4896D58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpeg.Media", "FFmpeg.Media\FFmpeg.Media.csproj", "{72A61307-6E94-4EEE-8DB9-68312D545332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{55F4EB9C-E215-4066-8973-9EE2D4896D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F4EB9C-E215-4066-8973-9EE2D4896D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F4EB9C-E215-4066-8973-9EE2D4896D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A61307-6E94-4EEE-8DB9-68312D545332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A61307-6E94-4EEE-8DB9-68312D545332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A61307-6E94-4EEE-8DB9-68312D545332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A61307-6E94-4EEE-8DB9-68312D545332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

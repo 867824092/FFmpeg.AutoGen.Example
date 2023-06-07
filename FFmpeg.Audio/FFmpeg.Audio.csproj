@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FFmpeg.Helper\FFmpeg.Helper.csproj" />
+    </ItemGroup>
+	<ItemGroup>
+		<None Include="..\Libraries\avcodec-59.dll" Link=".\FFmpeg\avcodec-59.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\avdevice-59.dll" Link=".\FFmpeg\avdevice-59.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\avfilter-8.dll" Link=".\FFmpeg\avfilter-8.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\avformat-59.dll" Link=".\FFmpeg\avformat-59.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\avutil-57.dll" Link=".\FFmpeg\avutil-57.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\postproc-56.dll" Link=".\FFmpeg\postproc-56.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\swresample-4.dll" Link=".\FFmpeg\swresample-4.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\Libraries\swscale-6.dll" Link=".\FFmpeg\swscale-6.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
